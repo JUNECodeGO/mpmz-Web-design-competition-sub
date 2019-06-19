@@ -1,0 +1,40 @@
+.dream-container{
+  position: relative;
+  .dream-nav{
+    position: absolute;
+    right:100px;
+    top:-88px;
+    .sector{
+      display: inline-block;
+      width: 44px;
+      height: 300px;
+      background-image: url("../image/dream 1.png");
+      background-repeat: no-repeat;
+      vertical-align: top;
+      z-index: 10;
+      margin-right: 10px;
+      transition: all 0.5s ease-in-out;
+      &.s1{
+        background-position: -1146px -3px;
+      }
+      &.s2{
+        background-position: -1190px -3px;
+      }
+      &.s3{
+        height: 266px;
+        background-position: -1234px -3px;
+      }
+      &:hover{
+        transform: translateY(20px);
+      }
+
+    }
+  }
+  .dream-back{
+    width:100%;
+    height:700px;
+    background-image: url("../image/dream 1.png");
+    background-repeat: no-repeat;
+    background-size: 1680px;
+  }
+}
